@@ -14,7 +14,7 @@
 <br>
 
 ## 실행 방법
-1. Download 혹은 clone 후  project-Naru / project-Naru/frontend-naru 각 폴더에서 npm install
+1. Download 혹은 clone 후  project-Naru , project-Naru/frontend-naru 각 폴더에서 npm install
 2. project-Naru 폴더에서 node server.js
 3. project-Naru/frontend-naru 폴더에서 npm start
 <br>

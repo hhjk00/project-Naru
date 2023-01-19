@@ -11,6 +11,8 @@
 📝 Notion : https://www.notion.so/Naru-41ebf4098e14423ba0681501c84cadff <br>
 🎨 Figma : https://www.figma.com/file/uJ4RDLR7iTPzQ7XpKQmlKJ/Naru?node-id=0%3A1&t=wTTRL70YkT2euIUa-0
 
+- 개발 기간 : 2022.11.28 ~ 2022.12.26
+
 <br>
 
 # 🛠️ 기술 스택

@@ -13,8 +13,7 @@ import axios from 'axios';
 import uuid from 'react-uuid'
 import './Write.scss';
 
-
-const Write = (props) => {
+const Write = () => {
   const [isShown, setIsShown] = useState(false);
   const [images, setImages] = useState(["","","",""]);
   const [postId, setPostId] = useState();
@@ -38,7 +37,6 @@ const Write = (props) => {
     }
     getPostId();
   }, []);
-
 
   const onClickAddressSearch = () => {
     setIsShown(true)
@@ -84,8 +82,13 @@ const Write = (props) => {
   }
 
   const onClickCancel = () => {
-    navigate(-1);
-  }
+      axios.delete(`http://localhost:8080/community/delete/${postId}`)
+      .then((response) => {
+          if(response.data.message === "삭제 완료") {
+            navigate(-1);
+          }
+      })
+}
 
   return (
     <>
